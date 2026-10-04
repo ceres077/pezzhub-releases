@@ -24,6 +24,9 @@ Una versione portatile, quando disponibile, è indicata tra i file della release
 
 Profili, preferenze e librerie sono personali. La sincronizzazione tramite
 account Pezzhub è facoltativa; senza account puoi usare l'app in locale.
+Il catalogo TMDB condiviso richiede l'accesso all'account Pezzhub: la relativa
+chiave resta sul server, non nell'installer. In locale puoi usare le tue estensioni
+oppure una chiave TMDB personale nelle integrazioni.
 
 ## Aggiornamenti nell'app
 
