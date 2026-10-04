@@ -33,7 +33,9 @@ oppure una chiave TMDB personale nelle integrazioni.
 In **Impostazioni → Aggiornamenti** puoi controllare nuove versioni, leggere le
 novità e scaricare il setup. Il canale ufficiale è già configurato nelle nuove build.
 Dal setup 1.0.6 il controllo all'avvio e ogni sei ore e il download in background
-sono attivi per impostazione predefinita, senza configurare nulla. Puoi
+sono attivi per impostazione predefinita, senza configurare nulla. Dalla 1.0.8,
+quando Pezzhub rileva una nuova versione compare automaticamente un avviso
+nell'app: mostra anche il download e propone il riavvio quando è pronto. Puoi
 disattivarli separatamente nelle impostazioni. Quando il file è verificato,
 compare «Riavvia e aggiorna»: l'installazione richiede conferma e l'avviso non
 interrompe film o letture. Un aggiornamento già pronto si conserva anche dopo
