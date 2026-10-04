@@ -32,7 +32,12 @@ oppure una chiave TMDB personale nelle integrazioni.
 
 In **Impostazioni → Aggiornamenti** puoi controllare nuove versioni, leggere le
 novità e scaricare il setup. Il canale ufficiale è già configurato nelle nuove build.
-Il controllo automatico all'avvio è opzionale; l'installazione richiede conferma.
+Dal setup 1.0.6 il controllo all'avvio e ogni sei ore e il download in background
+sono attivi per impostazione predefinita, senza configurare nulla. Puoi
+disattivarli separatamente nelle impostazioni. Quando il file è verificato,
+compare «Riavvia e aggiorna»: l'installazione richiede conferma e l'avviso non
+interrompe film o letture. Un aggiornamento già pronto si conserva anche dopo
+la chiusura dell'app. Le scelte salvate nelle versioni precedenti vengono rispettate.
 Gli aggiornamenti conservano la cartella dati con profili e impostazioni.
 
 Pezzhub verifica lo SHA-256 del setup prima di avviarlo. Questo verifica
