@@ -10,17 +10,26 @@ dell'applicazione è mantenuto in un repository separato e non viene caricato qu
 
 Apri [l'ultima release](https://github.com/ceres077/pezzhub-releases/releases/latest)
 e scarica `pezzhub-setup-X.Y.Z.exe` per Windows 64 bit.
-Se non trovi ancora una release, la prima versione pubblica è in preparazione.
 
 Il setup include il player MPV e non preinstalla estensioni video: puoi scegliere
-e configurare le tue fonti nelle impostazioni. SoundHub è ancora in preparazione.
+e configurare le tue fonti nelle impostazioni. Dalla versione Windows 1.0.21
+include anche la prima versione di SoundHub.
 Una versione portatile, quando disponibile, è indicata tra i file della release.
 
 ## Tre spazi, un solo posto
 
 - **MangaHub:** catalogo manga, libreria personale, reader e ripresa della lettura.
 - **CineHub:** film, serie TV e anime, progressi, calendario e player.
-- **SoundHub:** spazio dedicato alla musica, non ancora attivo.
+- **SoundHub (Windows):** ricerca YouTube Music, album, player persistente,
+  preferiti, playlist e coda riordinabile, separati per profilo.
+
+Il collegamento Spotify di SoundHub è **sperimentale e non ancora collaudato
+con un account reale**. Spotify fornisce metadati e playlist; l'audio viene
+risolto su YouTube Music. L'accesso avviene nel sito ufficiale e la sessione
+resta cifrata sul dispositivo, senza essere inviata al cloud. I dati musicali
+sono per ora locali: la sincronizzazione cloud di SoundHub non è ancora attiva.
+Questa prima versione non replica tutte le funzionalità di Meld e non ne
+incorpora il codice. Le versioni Android e i loro aggiornamenti restano separati.
 
 Profili, preferenze e librerie sono personali. La sincronizzazione tramite
 account Pezzhub è facoltativa; senza account puoi usare l'app in locale.
