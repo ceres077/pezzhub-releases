@@ -25,9 +25,12 @@ Una versione portatile, quando disponibile, è indicata tra i file della release
   riordinabile, separati per profilo. Dalla 1.0.22 ha un layout ispirato a Spotify
   con colori Pezzhub e una sidebar che resta separata dal player.
 
-Il collegamento Spotify di SoundHub è **sperimentale e non ancora collaudato
-con un account reale**. Spotify fornisce metadati e playlist; l'audio viene
-risolto su YouTube Music. L'accesso avviene nel sito ufficiale e la sessione
+Il collegamento Spotify di SoundHub è **sperimentale**, ma l’importazione è
+stata verificata anche con un account reale. Dalla 1.0.25 è disponibile l’importatore dei brani
+preferiti: dopo il login apri «Brani che ti piacciono» nella finestra Spotify,
+quindi importa dalla pagina Sorgenti e preferenze. I preferiti esistenti non
+vengono cancellati in caso di errore. L'audio viene risolto su YouTube Music.
+L'accesso avviene nel sito ufficiale e la sessione
 resta cifrata sul dispositivo, senza essere inviata al cloud. I dati musicali
 sono per ora locali: la sincronizzazione cloud di SoundHub non è ancora attiva.
 Questa prima versione non replica tutte le funzionalità di Meld e non ne
@@ -41,6 +44,15 @@ film o trailer ferma la musica e chiude il player musicale. La presenza Discord
 supporta anche titolo, artista, copertina e tempo del brano: si attiva nelle
 impostazioni del profilo, anche da SoundHub. Richiede Discord desktop aperto;
 resta disattivata per l'ospite e non condivide collegamenti delle fonti.
+
+Dalla 1.0.25 la home musicale legge il [catalogo pubblico Amazon Music](https://music.amazon.it/),
+con categorie aggiornate, senza podcast. La ricerca propone anteprime e dà
+priorità alle corrispondenze esatte; gli artisti hanno popolari, discografia e
+una lista personale degli artisti seguiti. Il menu dei brani offre playlist,
+preferiti, coda, esclusioni, timer, radio, album, artista e link pubblico.
+Le informazioni non fornite dalla fonte non vengono inventate. La coda può
+continuare con brani collegati all’artista corrente: quando manca una
+corrispondenza coerente si ferma. Le Jam condivise sono previste in seguito.
 
 Profili, preferenze e librerie sono personali. La sincronizzazione tramite
 account Pezzhub è facoltativa; senza account puoi usare l'app in locale.
