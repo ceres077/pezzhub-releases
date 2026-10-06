@@ -36,6 +36,12 @@ La versione 1.0.23 corregge le richieste dei blocchi audio e il rinnovo della
 sessione con «Riprova», verificati nel player Electron Windows. YouTube può
 comunque limitare o rendere indisponibili singoli contenuti.
 
+Dalla 1.0.24 SoundHub ha un banner dedicato nella home Pezzhub. L'avvio di un
+film o trailer ferma la musica e chiude il player musicale. La presenza Discord
+supporta anche titolo, artista, copertina e tempo del brano: si attiva nelle
+impostazioni del profilo, anche da SoundHub. Richiede Discord desktop aperto;
+resta disattivata per l'ospite e non condivide collegamenti delle fonti.
+
 Profili, preferenze e librerie sono personali. La sincronizzazione tramite
 account Pezzhub è facoltativa; senza account puoi usare l'app in locale.
 Il catalogo TMDB condiviso richiede l'accesso all'account Pezzhub: la relativa
