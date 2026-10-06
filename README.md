@@ -20,8 +20,10 @@ Una versione portatile, quando disponibile, è indicata tra i file della release
 
 - **MangaHub:** catalogo manga, libreria personale, reader e ripresa della lettura.
 - **CineHub:** film, serie TV e anime, progressi, calendario e player.
-- **SoundHub (Windows):** ricerca YouTube Music, album, player persistente,
-  preferiti, playlist e coda riordinabile, separati per profilo.
+- **SoundHub (Windows):** ricerca YouTube Music, cataloghi per generi e atmosfere,
+  album, libreria laterale, player persistente, preferiti, playlist e coda
+  riordinabile, separati per profilo. Dalla 1.0.22 ha un layout ispirato a Spotify
+  con colori Pezzhub e una sidebar che resta separata dal player.
 
 Il collegamento Spotify di SoundHub è **sperimentale e non ancora collaudato
 con un account reale**. Spotify fornisce metadati e playlist; l'audio viene
@@ -30,6 +32,8 @@ resta cifrata sul dispositivo, senza essere inviata al cloud. I dati musicali
 sono per ora locali: la sincronizzazione cloud di SoundHub non è ancora attiva.
 Questa prima versione non replica tutte le funzionalità di Meld e non ne
 incorpora il codice. Le versioni Android e i loro aggiornamenti restano separati.
+Le fonti YouTube possono ancora restituire errori 403 intermittenti:
+la versione 1.0.22 migliora grafica e cataloghi, ma non risolve tale instabilità.
 
 Profili, preferenze e librerie sono personali. La sincronizzazione tramite
 account Pezzhub è facoltativa; senza account puoi usare l'app in locale.
