@@ -32,8 +32,9 @@ resta cifrata sul dispositivo, senza essere inviata al cloud. I dati musicali
 sono per ora locali: la sincronizzazione cloud di SoundHub non è ancora attiva.
 Questa prima versione non replica tutte le funzionalità di Meld e non ne
 incorpora il codice. Le versioni Android e i loro aggiornamenti restano separati.
-Le fonti YouTube possono ancora restituire errori 403 intermittenti:
-la versione 1.0.22 migliora grafica e cataloghi, ma non risolve tale instabilità.
+La versione 1.0.23 corregge le richieste dei blocchi audio e il rinnovo della
+sessione con «Riprova», verificati nel player Electron Windows. YouTube può
+comunque limitare o rendere indisponibili singoli contenuti.
 
 Profili, preferenze e librerie sono personali. La sincronizzazione tramite
 account Pezzhub è facoltativa; senza account puoi usare l'app in locale.
