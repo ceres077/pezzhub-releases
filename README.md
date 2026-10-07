@@ -22,6 +22,11 @@ riutilizza la fonte dell'episodio già iniziato. SoundHub migliora il recupero
 delle copertine e della riproduzione audio. Le fonti esterne possono comunque
 essere temporaneamente indisponibili.
 
+La 1.0.28 corregge Alt+Tab dal player a schermo intero: il film non riprende
+il fuoco quando passi a un'altra applicazione. Il comportamento è stato
+verificato con la combinazione reale di Windows, anche con il video in pausa;
+solo il PiP resta sempre in primo piano.
+
 ## Tre spazi, un solo posto
 
 - **MangaHub:** catalogo manga, libreria personale, reader e ripresa della lettura.
