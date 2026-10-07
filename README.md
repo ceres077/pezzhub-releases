@@ -54,6 +54,10 @@ Le informazioni non fornite dalla fonte non vengono inventate. La coda può
 continuare con brani collegati all’artista corrente: quando manca una
 corrispondenza coerente si ferma. Le Jam condivise sono previste in seguito.
 
+Dalla 1.0.26 il player mantiene una sola voce Pezzhub nella barra applicazioni
+di Windows. Nella scheda di un titolo già iniziato trovi «Continua a guardare»
+accanto al pulsante principale, per riprendere episodio e minuto salvati.
+
 Profili, preferenze e librerie sono personali. La sincronizzazione tramite
 account Pezzhub è facoltativa; senza account puoi usare l'app in locale.
 Il catalogo TMDB condiviso richiede l'accesso all'account Pezzhub: la relativa
