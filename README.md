@@ -16,6 +16,12 @@ e configurare le tue fonti nelle impostazioni. Dalla versione Windows 1.0.21
 include anche la prima versione di SoundHub.
 Una versione portatile, quando disponibile, è indicata tra i file della release.
 
+La versione Windows 1.0.27 aggiunge un tutorial saltabile e la configurazione
+guidata del player, corregge il passaggio tra finestre con un film in pausa e
+riutilizza la fonte dell'episodio già iniziato. SoundHub migliora il recupero
+delle copertine e della riproduzione audio. Le fonti esterne possono comunque
+essere temporaneamente indisponibili.
+
 ## Tre spazi, un solo posto
 
 - **MangaHub:** catalogo manga, libreria personale, reader e ripresa della lettura.
