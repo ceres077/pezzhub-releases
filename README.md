@@ -27,6 +27,23 @@ il fuoco quando passi a un'altra applicazione. Il comportamento è stato
 verificato con la combinazione reale di Windows, anche con il video in pausa;
 solo il PiP resta sempre in primo piano.
 
+## Pezzhub per Android (telefono e tablet)
+
+L'app Android ha le sue release, separate da quelle di Windows: le trovi
+nell'[elenco delle release](https://github.com/ceres077/pezzhub-releases/releases)
+con il nome **«pezzhub Android X.Y.Z»** (etichetta `android-app-vX.Y.Z`);
+la voce «pezzhub Android · canale aggiornamenti» serve solo all'app e non va scaricata.
+GitHub le segna come *pre-release* solo perché la pagina «ultima release»
+resti quella di Windows. Apri la più recente e scarica `pezzhub-android-X.Y.Z.apk`.
+
+Installazione: apri l'APK dal telefono e, se Android lo chiede, consenti
+l'installazione da questa fonte (browser o gestore file). Serve Android 8 o
+successivo su un dispositivo a 64 bit. Gli aggiornamenti successivi arrivano
+dall'app stessa, in **Impostazioni → Aggiornamenti**: Pezzhub scarica il nuovo
+APK, ne verifica lo SHA-256 e chiede ad Android di installarlo. Profili, librerie
+e sessioni restano sul dispositivo. Le versioni Windows e Android escono con lo
+stesso numero.
+
 ## Tre spazi, un solo posto
 
 - **MangaHub:** catalogo manga, libreria personale, reader e ripresa della lettura.
