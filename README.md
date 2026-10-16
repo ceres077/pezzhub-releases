@@ -9,7 +9,13 @@ dell'applicazione è mantenuto in un repository separato e non viene caricato qu
 ## Scarica Pezzhub
 
 Apri [l'ultima release](https://github.com/ceres077/pezzhub-releases/releases/latest)
-e scarica `pezzhub-setup-X.Y.Z.exe` per Windows 64 bit.
+e scarica il file per il tuo dispositivo. Dalla 1.0.76 sono tutti nella stessa release:
+
+| Dispositivo | File |
+|---|---|
+| Windows 64 bit | `pezzhub-setup-X.Y.Z.exe` |
+| Telefono e tablet Android | `pezzhub-android-X.Y.Z.apk` |
+| Android TV | `pezzhub-tv-X.Y.Z.apk` |
 
 Il setup include il player MPV e non preinstalla estensioni video: puoi scegliere
 e configurare le tue fonti nelle impostazioni. Dalla versione Windows 1.0.21
@@ -29,12 +35,11 @@ solo il PiP resta sempre in primo piano.
 
 ## Pezzhub per Android (telefono e tablet)
 
-L'app Android ha le sue release, separate da quelle di Windows: le trovi
-nell'[elenco delle release](https://github.com/ceres077/pezzhub-releases/releases)
-con il nome **«pezzhub Android X.Y.Z»** (etichetta `android-app-vX.Y.Z`);
-la voce «pezzhub Android · canale aggiornamenti» serve solo all'app e non va scaricata.
-GitHub le segna come *pre-release* solo perché la pagina «ultima release»
-resti quella di Windows. Apri la più recente e scarica `pezzhub-android-X.Y.Z.apk`.
+Dalla 1.0.76 l'APK è nell'[ultima release](https://github.com/ceres077/pezzhub-releases/releases/latest),
+insieme al setup Windows: scarica `pezzhub-android-X.Y.Z.apk`. Le voci
+**«pezzhub Android X.Y.Z»** (etichetta `android-app-vX.Y.Z`, segnate come
+*pre-release*) e «pezzhub Android · canale aggiornamenti» servono alle app già
+installate per aggiornarsi da sole: non serve scaricarle a mano.
 
 Installazione: apri l'APK dal telefono e, se Android lo chiede, consenti
 l'installazione da questa fonte (browser o gestore file). Serve Android 8 o
@@ -43,6 +48,16 @@ dall'app stessa, in **Impostazioni → Aggiornamenti**: Pezzhub scarica il nuovo
 APK, ne verifica lo SHA-256 e chiede ad Android di installarlo. Profili, librerie
 e sessioni restano sul dispositivo. Le versioni Windows e Android escono con lo
 stesso numero.
+
+## Pezzhub per Android TV
+
+Scarica `pezzhub-tv-X.Y.Z.apk` dall'[ultima release](https://github.com/ceres077/pezzhub-releases/releases/latest)
+e installalo sul televisore, per esempio da una chiavetta USB con un gestore file.
+Si usa tutta col telecomando: righe come Netflix, barra laterale con i nomi,
+Indietro che riporta in cima e poi al menu, ricerca vocale dal microfono del
+telecomando e una guida al primo avvio. Gli aggiornamenti arrivano dall'app,
+come su telefono; le voci `android-vX.Y.Z` e «pezzhub Android TV · canale
+aggiornamenti» servono solo a questo.
 
 ## Tre spazi, un solo posto
 
