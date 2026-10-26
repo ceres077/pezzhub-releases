@@ -9,11 +9,13 @@ dell'applicazione è mantenuto in un repository separato e non viene caricato qu
 ## Scarica Pezzhub
 
 Apri [l'ultima release](https://github.com/ceres077/pezzhub-releases/releases/latest)
-e scarica il file per il tuo dispositivo. Dalla 1.0.76 sono tutti nella stessa release:
+e scarica il file per il tuo dispositivo. Dalla 1.0.76 sono tutti nella stessa release (dalla 1.1.7 anche il Mac):
 
 | Dispositivo | File |
 |---|---|
 | Windows 64 bit | `pezzhub-setup-X.Y.Z.exe` |
+| Mac con Apple Silicon (M1, M2, M3, M4…) | `pezzhub-mac-arm64-X.Y.Z.dmg` |
+| Mac con processore Intel | `pezzhub-mac-x64-X.Y.Z.dmg` |
 | Telefono e tablet Android | `pezzhub-android-X.Y.Z.apk` |
 | Android TV | `pezzhub-tv-X.Y.Z.apk` |
 
@@ -32,6 +34,18 @@ La 1.0.28 corregge Alt+Tab dal player a schermo intero: il film non riprende
 il fuoco quando passi a un'altra applicazione. Il comportamento è stato
 verificato con la combinazione reale di Windows, anche con il video in pausa;
 solo il PiP resta sempre in primo piano.
+
+## Pezzhub per Mac
+
+Dalla 1.1.7 c'è pezzhub per macOS 11 o successivo, uguale a quella per Windows: mangahub, cinehub, soundhub e tvhub,
+profili, account, player MPV incluso (schermo intero e picture-in-picture), download e aggiornamenti automatici.
+Scarica il dmg giusto per il tuo Mac (Apple Silicon o Intel: menu Apple › Informazioni su questo Mac), aprilo e
+trascina pezzhub in Applicazioni.
+
+Al primo avvio macOS chiede una conferma, perché pezzhub non ha un certificato Apple a pagamento: apri
+Impostazioni di sistema › Privacy e sicurezza e premi «Apri comunque». Serve una volta sola: gli aggiornamenti
+successivi arrivano dall'app. Gli zip `pezzhub-mac-…zip` della release servono proprio agli aggiornamenti
+automatici: non serve scaricarli a mano.
 
 ## Pezzhub per Android (telefono e tablet)
 
