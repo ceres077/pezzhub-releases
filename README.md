@@ -1,156 +1,153 @@
-# Pezzhub
+# pezzhub
 
-Le tue storie, tutte nello stesso posto.
+**Film, serie, anime, manga, musica e TV in diretta in un'unica app, per tutta la casa.**
+**Movies, shows, anime, manga, music and live TV in one app, for the whole household.**
 
-Questo è il repository pubblico di **distribuzione e aggiornamento** di Pezzhub.
-Qui vengono pubblicati gli installer e le note delle versioni. Il codice sorgente
-dell'applicazione è mantenuto in un repository separato e non viene caricato qui.
+[Sito / Website](https://pezzhub.netlify.app/) · [Scarica / Download](https://github.com/ceres077/pezzhub-releases/releases/latest) · [Italiano](#italiano) · [English](#english)
 
-## Scarica Pezzhub
+![La home di pezzhub: cinehub, mangahub, soundhub e tvhub nella stessa schermata](screenshots/home.jpg)
 
-Apri [l'ultima release](https://github.com/ceres077/pezzhub-releases/releases/latest)
-e scarica il file per il tuo dispositivo. Dalla 1.0.76 sono tutti nella stessa release (dalla 1.1.7 anche il Mac):
+---
 
-| Dispositivo | File |
+## Italiano
+
+### Cos'è pezzhub
+
+pezzhub mette in un unico posto quattro "mondi": **cinehub** per film, serie TV e anime, **mangahub** per i manga,
+**soundhub** per la musica e **tvhub** per i canali in diretta. Ognuno in casa ha il suo profilo, con libreria,
+progressi e gusti suoi. Con un account pezzhub tutto si sincronizza in tempo reale fra i dispositivi:
+inizi un episodio sul PC e lo finisci sulla TV, dal punto esatto in cui ti eri fermato.
+
+L'app è disponibile in italiano, inglese, francese, spagnolo e tedesco.
+
+### I quattro mondi
+
+| | |
 |---|---|
-| Windows 64 bit | `pezzhub-setup-X.Y.Z.exe` |
-| Mac con Apple Silicon (M1, M2, M3, M4…) | `pezzhub-mac-arm64-X.Y.Z.dmg` |
-| Mac con processore Intel | `pezzhub-mac-x64-X.Y.Z.dmg` |
-| Telefono e tablet Android | `pezzhub-android-X.Y.Z.apk` |
-| Android TV | `pezzhub-tv-X.Y.Z.apk` |
+| ![cinehub](screenshots/cinehub.jpg) | **cinehub** · Film, serie TV e anime. Vetrina con trailer, schede con trama e voti, «Continua a guardare», libreria, calendario delle uscite, diario e «Guarda insieme» per vedere un titolo a tempo con un amico. Il player MPV è incluso, con schermo intero e picture-in-picture. |
+| ![Scheda di un film](screenshots/detail.jpg) | **Le schede** · Trama, voti TMDB e trailer. Riprendi dal minuto salvato, aggiungi alla lista o alla serata, segna come visto. |
+| ![mangahub](screenshots/mangahub.jpg) | **mangahub** · Manga, manhwa e manhua: catalogo, libreria personale, reader e ripresa della lettura dal capitolo e dalla pagina in cui eri arrivato. |
+| ![soundhub](screenshots/soundhub.jpg) | **soundhub** · Brani, album, artisti e playlist. Preferiti, coda riordinabile, testi sincronizzati, radio dal brano che stai ascoltando e importazione dei preferiti da Spotify. |
+| ![La libreria di cinehub](screenshots/library.jpg) | **tvhub e libreria** · tvhub porta canali in diretta e guida TV con il tuo abbonamento Xtream. La libreria raccoglie lista, cronologia, diario e download, separati per profilo. |
 
-Il setup include il player MPV e non preinstalla estensioni video: puoi scegliere
-e configurare le tue fonti nelle impostazioni. Dalla versione Windows 1.0.21
-include anche la prima versione di SoundHub.
-Una versione portatile, quando disponibile, è indicata tra i file della release.
+### Su quali dispositivi
 
-La versione Windows 1.0.27 aggiunge un tutorial saltabile e la configurazione
-guidata del player, corregge il passaggio tra finestre con un film in pausa e
-riutilizza la fonte dell'episodio già iniziato. SoundHub migliora il recupero
-delle copertine e della riproduzione audio. Le fonti esterne possono comunque
-essere temporaneamente indisponibili.
+| Dispositivo | Requisiti | File da scaricare |
+|---|---|---|
+| Windows | Windows 10 o 11 a 64 bit | `pezzhub-setup-X.Y.Z.exe` |
+| Mac con Apple Silicon (M1, M2, M3, M4…) | macOS 11 o successivo | `pezzhub-mac-arm64-X.Y.Z.dmg` |
+| Mac con processore Intel | macOS 11 o successivo | `pezzhub-mac-x64-X.Y.Z.dmg` |
+| Telefono e tablet Android | Android 8 o successivo, 64 bit | `pezzhub-android-X.Y.Z.apk` |
+| Android TV | Android TV 8 o successivo | `pezzhub-tv-X.Y.Z.apk` |
 
-La 1.0.28 corregge Alt+Tab dal player a schermo intero: il film non riprende
-il fuoco quando passi a un'altra applicazione. Il comportamento è stato
-verificato con la combinazione reale di Windows, anche con il video in pausa;
-solo il PiP resta sempre in primo piano.
+Tutti i file sono nell'[ultima release](https://github.com/ceres077/pezzhub-releases/releases/latest).
+Ogni versione esce insieme per tutti i dispositivi, con lo stesso numero.
 
-## Pezzhub per Mac
+Su **Android TV** pezzhub si usa tutta con il telecomando: righe di titoli, barra laterale, ricerca vocale dal
+microfono del telecomando e una guida al primo avvio.
 
-Dalla 1.1.7 c'è pezzhub per macOS 11 o successivo, uguale a quella per Windows: mangahub, cinehub, soundhub e tvhub,
-profili, account, player MPV incluso (schermo intero e picture-in-picture), download e aggiornamenti automatici.
-Scarica il dmg giusto per il tuo Mac (Apple Silicon o Intel: menu Apple › Informazioni su questo Mac), aprilo e
-trascina pezzhub in Applicazioni.
+### Un account, tutto sincronizzato
 
-Al primo avvio macOS chiede una conferma, perché pezzhub non ha un certificato Apple a pagamento: apri
-Impostazioni di sistema › Privacy e sicurezza e premi «Apri comunque». Serve una volta sola: gli aggiornamenti
-successivi arrivano dall'app. Gli zip `pezzhub-mac-…zip` della release servono proprio agli aggiornamenti
-automatici: non serve scaricarli a mano.
+L'account è facoltativo: senza, pezzhub funziona in locale. Con l'account, ogni modifica arriva subito agli altri
+dispositivi: profili, libreria, visioni e progressi, preferenze, musica (preferiti, playlist, ascolti recenti e
+coda), manga e tvhub. Anche gli account collegati (Stremio, Trakt e le estensioni con chiave) si configurano una
+volta sola e valgono ovunque. Se due dispositivi cambiano la stessa cosa, vale l'ultima modifica.
+Un profilo eliminato sparisce da tutti i dispositivi.
 
-## Pezzhub per Android (telefono e tablet)
+### Installazione
 
-Dalla 1.0.76 l'APK è nell'[ultima release](https://github.com/ceres077/pezzhub-releases/releases/latest),
-insieme al setup Windows: scarica `pezzhub-android-X.Y.Z.apk`. Le voci
-**«pezzhub Android X.Y.Z»** (etichetta `android-app-vX.Y.Z`, segnate come
-*pre-release*) e «pezzhub Android · canale aggiornamenti» servono alle app già
-installate per aggiornarsi da sole: non serve scaricarle a mano.
+- **Windows:** apri il setup e segui l'installazione guidata.
+- **Mac:** apri il dmg e trascina pezzhub in Applicazioni. pezzhub non ha un certificato Apple a pagamento, quindi
+  al primo avvio macOS chiede una conferma: apri *Impostazioni di sistema › Privacy e sicurezza* e premi
+  *Apri comunque*. Serve una volta sola.
+- **Android:** apri l'APK dal telefono e, se Android lo chiede, consenti l'installazione da questa fonte.
+- **Android TV:** copia l'APK sul televisore (per esempio con una chiavetta USB) e aprilo con un gestore file.
 
-Installazione: apri l'APK dal telefono e, se Android lo chiede, consenti
-l'installazione da questa fonte (browser o gestore file). Serve Android 8 o
-successivo su un dispositivo a 64 bit. Gli aggiornamenti successivi arrivano
-dall'app stessa, in **Impostazioni → Aggiornamenti**: Pezzhub scarica il nuovo
-APK, ne verifica lo SHA-256 e chiede ad Android di installarlo. Profili, librerie
-e sessioni restano sul dispositivo. Le versioni Windows e Android escono con lo
-stesso numero.
+Gli aggiornamenti arrivano poi dall'app, in *Impostazioni › Aggiornamenti*: pezzhub scarica la nuova versione,
+ne verifica l'impronta SHA-256 e propone di installarla. Profili e impostazioni restano. I file `.zip` per Mac e
+le voci `android-…` della pagina delle release servono agli aggiornamenti automatici: non serve scaricarli a mano.
 
-## Pezzhub per Android TV
+### Contenuti, sicurezza e privacy
 
-Scarica `pezzhub-tv-X.Y.Z.apk` dall'[ultima release](https://github.com/ceres077/pezzhub-releases/releases/latest)
-e installalo sul televisore, per esempio da una chiavetta USB con un gestore file.
-Si usa tutta col telecomando: righe come Netflix, barra laterale con i nomi,
-Indietro che riporta in cima e poi al menu, ricerca vocale dal microfono del
-telecomando e una guida al primo avvio. Gli aggiornamenti arrivano dall'app,
-come su telefono; le voci `android-vX.Y.Z` e «pezzhub Android TV · canale
-aggiornamenti» servono solo a questo.
+pezzhub non fornisce né ospita contenuti: usa solo le fonti, le estensioni e gli abbonamenti che configuri tu,
+per i quali devi avere il diritto di accesso. Questo repository contiene soltanto gli installer, le note delle
+versioni e questa pagina: nessun dato personale, credenziale o file multimediale. Il codice sorgente è in un
+repository separato. Scarica pezzhub solo dalle release di questo repository.
 
-## Tre spazi, un solo posto
+### Segnalazioni
 
-- **MangaHub:** catalogo manga, libreria personale, reader e ripresa della lettura.
-- **CineHub:** film, serie TV e anime, progressi, calendario e player.
-- **SoundHub (Windows):** ricerca YouTube Music, cataloghi per generi e atmosfere,
-  album, libreria laterale, player persistente, preferiti, playlist e coda
-  riordinabile, separati per profilo. Dalla 1.0.22 ha un layout ispirato a Spotify
-  con colori Pezzhub e una sidebar che resta separata dal player.
+Apri una [segnalazione](https://github.com/ceres077/pezzhub-releases/issues) indicando la versione di pezzhub,
+il dispositivo e i passaggi per riprodurre il problema. Non allegare password, token o collegamenti che
+contengono credenziali.
 
-Il collegamento Spotify di SoundHub è **sperimentale**, ma l’importazione è
-stata verificata anche con un account reale. Dalla 1.0.25 è disponibile l’importatore dei brani
-preferiti: dopo il login apri «Brani che ti piacciono» nella finestra Spotify,
-quindi importa dalla pagina Sorgenti e preferenze. I preferiti esistenti non
-vengono cancellati in caso di errore. L'audio viene risolto su YouTube Music.
-L'accesso avviene nel sito ufficiale e la sessione
-resta cifrata sul dispositivo, senza essere inviata al cloud. I dati musicali
-sono per ora locali: la sincronizzazione cloud di SoundHub non è ancora attiva.
-Questa prima versione non replica tutte le funzionalità di Meld e non ne
-incorpora il codice. Le versioni Android e i loro aggiornamenti restano separati.
-La versione 1.0.23 corregge le richieste dei blocchi audio e il rinnovo della
-sessione con «Riprova», verificati nel player Electron Windows. YouTube può
-comunque limitare o rendere indisponibili singoli contenuti.
+---
 
-Dalla 1.0.24 SoundHub ha un banner dedicato nella home Pezzhub. L'avvio di un
-film o trailer ferma la musica e chiude il player musicale. La presenza Discord
-supporta anche titolo, artista, copertina e tempo del brano: si attiva nelle
-impostazioni del profilo, anche da SoundHub. Richiede Discord desktop aperto;
-resta disattivata per l'ospite e non condivide collegamenti delle fonti.
+## English
 
-Dalla 1.0.25 la home musicale legge il [catalogo pubblico Amazon Music](https://music.amazon.it/),
-con categorie aggiornate, senza podcast. La ricerca propone anteprime e dà
-priorità alle corrispondenze esatte; gli artisti hanno popolari, discografia e
-una lista personale degli artisti seguiti. Il menu dei brani offre playlist,
-preferiti, coda, esclusioni, timer, radio, album, artista e link pubblico.
-Le informazioni non fornite dalla fonte non vengono inventate. La coda può
-continuare con brani collegati all’artista corrente: quando manca una
-corrispondenza coerente si ferma. Le Jam condivise sono previste in seguito.
+### What pezzhub is
 
-Dalla 1.0.26 il player mantiene una sola voce Pezzhub nella barra applicazioni
-di Windows. Nella scheda di un titolo già iniziato trovi «Continua a guardare»
-accanto al pulsante principale, per riprendere episodio e minuto salvati.
+pezzhub brings four "worlds" together: **cinehub** for movies, TV shows and anime, **mangahub** for manga,
+**soundhub** for music and **tvhub** for live channels. Everyone at home gets their own profile, with their own
+library, progress and taste. With a pezzhub account everything syncs between devices in real time: start an
+episode on your PC and finish it on the TV, right where you left off.
 
-Profili, preferenze e librerie sono personali. La sincronizzazione tramite
-account Pezzhub è facoltativa; senza account puoi usare l'app in locale.
-Il catalogo TMDB condiviso richiede l'accesso all'account Pezzhub: la relativa
-chiave resta sul server, non nell'installer. In locale puoi usare le tue estensioni
-oppure una chiave TMDB personale nelle integrazioni.
+The app is available in Italian, English, French, Spanish and German.
 
-## Aggiornamenti nell'app
+### The four worlds
 
-In **Impostazioni → Aggiornamenti** puoi controllare nuove versioni, leggere le
-novità e scaricare il setup. Il canale ufficiale è già configurato nelle nuove build.
-Dal setup 1.0.6 il controllo all'avvio e ogni sei ore e il download in background
-sono attivi per impostazione predefinita, senza configurare nulla. Dalla 1.0.8,
-quando Pezzhub rileva una nuova versione compare automaticamente un avviso
-nell'app: mostra anche il download e propone il riavvio quando è pronto. Puoi
-disattivarli separatamente nelle impostazioni. Quando il file è verificato,
-compare «Riavvia e aggiorna»: l'installazione richiede conferma e l'avviso non
-interrompe film o letture. Un aggiornamento già pronto si conserva anche dopo
-la chiusura dell'app. Le scelte salvate nelle versioni precedenti vengono rispettate.
-Gli aggiornamenti conservano la cartella dati con profili e impostazioni.
+| | |
+|---|---|
+| ![cinehub](screenshots/cinehub.jpg) | **cinehub** · Movies, TV shows and anime. A featured showcase with trailers, detail pages with plot and ratings, "Continue watching", library, release calendar, diary and "Watch together" to watch in sync with a friend. The MPV player is included, with fullscreen and picture-in-picture. |
+| ![A movie page](screenshots/detail.jpg) | **Detail pages** · Plot, TMDB ratings and trailer. Resume from the saved minute, add to your list or to tonight's plan, mark as watched. |
+| ![mangahub](screenshots/mangahub.jpg) | **mangahub** · Manga, manhwa and manhua: catalog, personal library, reader, and resume from the chapter and page you reached. |
+| ![soundhub](screenshots/soundhub.jpg) | **soundhub** · Songs, albums, artists and playlists. Favorites, a reorderable queue, synced lyrics, radio from the song you're playing, and Spotify favorites import. |
+| ![The cinehub library](screenshots/library.jpg) | **tvhub and library** · tvhub brings live channels and a TV guide with your own Xtream subscription. The library gathers your list, history, diary and downloads, per profile. |
 
-Pezzhub verifica lo SHA-256 del setup prima di avviarlo. Questo verifica
-l'integrità rispetto al manifest; non sostituisce una firma digitale del produttore.
-Non devi inserire token GitHub né creare un account GitHub per scaricare le release.
+### Supported devices
 
-## Sicurezza e privacy
+| Device | Requirements | File to download |
+|---|---|---|
+| Windows | 64-bit Windows 10 or 11 | `pezzhub-setup-X.Y.Z.exe` |
+| Mac with Apple Silicon (M1, M2, M3, M4…) | macOS 11 or later | `pezzhub-mac-arm64-X.Y.Z.dmg` |
+| Mac with an Intel processor | macOS 11 or later | `pezzhub-mac-x64-X.Y.Z.dmg` |
+| Android phone and tablet | Android 8 or later, 64-bit | `pezzhub-android-X.Y.Z.apk` |
+| Android TV | Android TV 8 or later | `pezzhub-tv-X.Y.Z.apk` |
 
-Questo repository non contiene database personali, credenziali, configurazioni
-private delle estensioni o file multimediali degli utenti. Pezzhub non fornisce
-contenuti: usa soltanto fonti e materiali per cui hai diritto di accesso.
-Scarica gli eseguibili esclusivamente dalle release di questo repository.
+Every file is in the [latest release](https://github.com/ceres077/pezzhub-releases/releases/latest).
+Each version ships for all devices at once, with the same number.
 
-Le licenze e le attribuzioni delle componenti di terze parti incluse nell'app
-restano valide e sono distribuite con il pacchetto.
+On **Android TV** everything works with the remote: rows of titles, a side bar, voice search from the remote's
+microphone and a first-run guide.
 
-## Segnalazioni
+### One account, everything in sync
 
-Puoi aprire una [segnalazione](https://github.com/ceres077/pezzhub-releases/issues)
-indicando versione di Pezzhub, versione di Windows e passaggi per riprodurre il problema.
-Non allegare password, token, email private o collegamenti delle fonti contenenti credenziali.
+An account is optional: without one, pezzhub works locally. With an account, every change reaches your other
+devices right away: profiles, library, watch history and progress, preferences, music (favorites, playlists,
+recent plays and queue), manga and tvhub. Linked accounts (Stremio, Trakt and extensions with a key) are set up
+once and work everywhere. When two devices change the same thing, the latest change wins.
+A deleted profile disappears from every device.
+
+### Installing
+
+- **Windows:** run the setup and follow the installer.
+- **Mac:** open the dmg and drag pezzhub to Applications. pezzhub has no paid Apple certificate, so macOS asks
+  for confirmation on first launch: open *System Settings › Privacy & Security* and click *Open Anyway*.
+  You only need to do this once.
+- **Android:** open the APK on your phone and, if Android asks, allow installs from that source.
+- **Android TV:** copy the APK to the TV (for example with a USB stick) and open it with a file manager.
+
+Updates then arrive from the app, in *Settings › Updates*: pezzhub downloads the new version, checks its SHA-256
+fingerprint and offers to install it. Profiles and settings are kept. The Mac `.zip` files and the `android-…`
+entries on the releases page are used by automatic updates: you don't need to download them.
+
+### Content, security and privacy
+
+pezzhub does not provide or host any content: it only uses the sources, extensions and subscriptions you set up
+yourself, which you must have the right to access. This repository only holds installers, release notes and this
+page: no personal data, credentials or media files. The source code lives in a separate repository. Only download
+pezzhub from this repository's releases.
+
+### Reporting a problem
+
+Open an [issue](https://github.com/ceres077/pezzhub-releases/issues) with your pezzhub version, your device and
+the steps to reproduce the problem. Don't attach passwords, tokens or links that contain credentials.
