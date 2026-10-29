@@ -4,6 +4,14 @@
 
 [Website](https://pezzhub.netlify.app/) · [Download](https://github.com/ceres077/pezzhub-releases/releases/latest) · [Community on Reddit](https://www.reddit.com/r/pezzhub) · [Report a problem](https://github.com/ceres077/pezzhub-releases/issues)
 
+<p align="center">
+  <a href="https://github.com/ceres077/pezzhub-releases/raw/main/media/pezzhub-presentation.mp4">
+    <img src="media/pezzhub-preview.gif" alt="pezzhub in 50 seconds: profiles, cinehub, mangahub, soundhub, tvhub and real-time sync" width="820">
+  </a>
+  <br>
+  <a href="https://github.com/ceres077/pezzhub-releases/raw/main/media/pezzhub-presentation.mp4"><b>▶ Watch the full presentation (50 s, with sound)</b></a>
+</p>
+
 ![pezzhub home: cinehub, mangahub, soundhub and tvhub on one screen](screenshots/home.jpg)
 
 ## What it does
@@ -81,6 +89,20 @@ Join even if you only lurk.
 pezzhub is a one-person project and help is very welcome: beta testers (especially for Android TV and the
 upcoming Samsung and LG apps), translators, designers and developers. Open an
 [issue](https://github.com/ceres077/pezzhub-releases/issues) or write on r/pezzhub.
+
+## Virus check
+
+Every installer of the latest release is scanned on VirusTotal. Version 1.1.11: **0 detections** on every file.
+
+| File | VirusTotal report |
+|---|---|
+| `pezzhub-setup-1.1.11.exe` (Windows) | [d14cfb20…](https://www.virustotal.com/gui/file/d14cfb205f1023b46463a1cadb0d789f1b0cac7b8c0978107e14cc8ef1c43552) |
+| `pezzhub-mac-arm64-1.1.11.dmg` (Mac Apple Silicon) | [ae0c3476…](https://www.virustotal.com/gui/file/ae0c347646f75ccb06eb2f663221885c30f987a026b9dd8cdb088013f59afcb0) |
+| `pezzhub-mac-x64-1.1.11.dmg` (Mac Intel) | [d497a6fc…](https://www.virustotal.com/gui/file/d497a6fcd4e94c96ff8d2243e6204a98eba7940d6a750b3a15b8479fbb5d3fa1) |
+| `pezzhub-android-1.1.11.apk` (Android phone and tablet) | [08b05f87…](https://www.virustotal.com/gui/file/08b05f87112fc144594eb50308ef5fc330244d00dc3893fa6ab72f56d2b341ac) |
+| `pezzhub-tv-1.1.11.apk` (Android TV) | [fc2547be…](https://www.virustotal.com/gui/file/fc2547beb3f4c12ea57a4e8041a8c7b54d8fb00fb1b21f92545dc7cc402bb7b2) |
+
+The link is the SHA-256 of the file: compare it with the file you downloaded to be sure it's the same one.
 
 ## Content, security and privacy
 
