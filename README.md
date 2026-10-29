@@ -12,7 +12,7 @@
   <a href="https://github.com/ceres077/pezzhub-releases/raw/main/media/pezzhub-presentation.mp4"><b>▶ Watch the full presentation (50 s, with sound)</b></a>
 </p>
 
-![pezzhub home: cinehub, mangahub, soundhub and tvhub on one screen](screenshots/home.jpg)
+
 
 ## What it does
 
