@@ -26,6 +26,8 @@ pause an episode on your PC and resume it on your TV at the same second.
 - 🎵 **Music** – songs, albums, artists and playlists, synced lyrics, reorderable queue, song radio and Spotify
   favorites import.
 - 📺 **Live TV** – channels and a full TV guide with your own Xtream (IPTV) subscription.
+- 📈 **AniList & Simkl tracking** – the anime and movies you finish and the manga chapters you read are marked on your
+  AniList and Simkl lists automatically, and your lists come into pezzhub.
 - 🔄 **Real-time sync** – profiles, library, progress, playlists and connected accounts follow you everywhere.
 - 👥 **Profiles** – one for every person at home, up to six.
 
@@ -51,9 +53,10 @@ Available in English, Italian, French, Spanish and German.
 | Mac with an Intel processor | macOS 11 or later | `pezzhub-mac-x64-X.Y.Z.dmg` |
 | Android phone and tablet | Android 8 or later, 64-bit | `pezzhub-android-X.Y.Z.apk` |
 | Android TV (alpha) | Android TV 8 or later | `pezzhub-tv-X.Y.Z.apk` |
+| Linux (CachyOS, Arch and Arch-based) | 64-bit (x86_64), `mpv` | [`pezzhub-linux.pacman`](https://github.com/ceres077/pezzhub-releases/releases/download/linux-channel/pezzhub-linux.pacman) or [`pezzhub-linux.AppImage`](https://github.com/ceres077/pezzhub-releases/releases/download/linux-channel/pezzhub-linux.AppImage) |
 
-Every file is in the [latest release](https://github.com/ceres077/pezzhub-releases/releases/latest).
-Each version ships for all devices at once, with the same number.
+Every file is in the [latest release](https://github.com/ceres077/pezzhub-releases/releases/latest); the two Linux
+links above always point to the latest Linux version. Each version ships for all devices with the same number.
 
 On **Android TV** everything works with the remote: rows of titles, a side bar, voice search from the remote's
 microphone and a first-run guide. The TV app is still in **alpha**, so expect some rough edges.
@@ -64,8 +67,8 @@ microphone and a first-run guide. The TV app is still in **alpha**, so expect so
 
 An account is optional: without one, pezzhub works locally. With an account, every change reaches your other
 devices right away: profiles, library, watch history and progress, preferences, music (favorites, playlists,
-recent plays and queue), manga and tvhub. Linked accounts (Stremio, Trakt and extensions with a key) are set up
-once and work everywhere. When two devices change the same thing, the latest change wins.
+recent plays and queue), manga and tvhub. Linked accounts (Stremio, Trakt, AniList, Simkl and extensions with a key)
+are set up once and work everywhere. When two devices change the same thing, the latest change wins.
 A deleted profile disappears from every device.
 
 ## Installing
@@ -76,6 +79,8 @@ A deleted profile disappears from every device.
   You only need to do this once.
 - **Android:** open the APK on your phone and, if Android asks, allow installs from that source.
 - **Android TV:** copy the APK to the TV (for example with a USB stick) and open it with a file manager.
+- **Linux:** install the package with `sudo pacman -U pezzhub-linux.pacman` (it brings in `mpv` if missing), or make the
+  AppImage executable and run it (it needs `mpv` and `fuse2`).
 
 Updates then arrive from the app, in *Settings › Updates*: pezzhub downloads the new version, checks its SHA-256
 fingerprint and offers to install it. Profiles and settings are kept. The Mac `.zip` files and the `android-…`
