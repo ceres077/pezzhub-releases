@@ -2,7 +2,24 @@
 
 **Movies, TV shows, anime, manga, music and live TV in one free app, with your progress in sync on every device.**
 
-[Website](https://pezzhub.netlify.app/) · [Download](https://github.com/ceres077/pezzhub-releases/releases/latest) · [Community on Reddit](https://www.reddit.com/r/pezzhub) · [Report a problem](https://github.com/ceres077/pezzhub-releases/issues)
+🌐 [Website](https://pezzhub.netlify.app/) · 💬 [Discord](https://discord.gg/75z6vwfQkK) · 👥 [Reddit](https://www.reddit.com/r/pezzhub) · 🐞 [Report a problem](https://github.com/ceres077/pezzhub-releases/issues)
+
+## Download
+
+Pick your device. Every link below always gives you the **latest version**.
+
+| Device | Download | Notes |
+|---|---|---|
+| 🪟 **Windows** 10 / 11 | **[Latest release](https://github.com/ceres077/pezzhub-releases/releases/latest)** → `pezzhub-setup-X.Y.Z.exe` | Run it and follow the installer. |
+| 🍎 **macOS** (Apple Silicon: M1, M2, M3, M4…) | **[Latest release](https://github.com/ceres077/pezzhub-releases/releases/latest)** → `pezzhub-mac-arm64-X.Y.Z.dmg` | macOS 11 or later. |
+| 🍎 **macOS** (Intel) | **[Latest release](https://github.com/ceres077/pezzhub-releases/releases/latest)** → `pezzhub-mac-x64-X.Y.Z.dmg` | macOS 11 or later. |
+| 🐧 **Linux** (CachyOS, Arch and Arch-based) | **[pezzhub-linux.pacman](https://github.com/ceres077/pezzhub-releases/releases/download/linux-channel/pezzhub-linux.pacman)** or **[pezzhub-linux.AppImage](https://github.com/ceres077/pezzhub-releases/releases/download/linux-channel/pezzhub-linux.AppImage)** | 64-bit, uses the system `mpv`. |
+| 📱 **Android phone & tablet** | **[pezzhub-android.apk](https://github.com/ceres077/pezzhub-releases/releases/download/android-app-channel/pezzhub-android.apk)** | Android 8 or later. |
+| 📺 **Android TV** (alpha) | **[pezzhub-tv.apk](https://github.com/ceres077/pezzhub-releases/releases/download/android-channel/pezzhub-tv.apk)** | Android TV 8 or later, works with the remote. |
+| 📺 **Samsung TV** (Tizen, 2020 and newer) | Installer for **[Windows](https://github.com/ceres077/pezzhub-releases/releases/download/tizen-channel/pezzhub-tv-samsung-setup.exe)** · **[macOS Apple Silicon](https://github.com/ceres077/pezzhub-releases/releases/download/tizen-channel/pezzhub-tv-samsung-mac-arm64.zip)** · **[macOS Intel](https://github.com/ceres077/pezzhub-releases/releases/download/tizen-channel/pezzhub-tv-samsung-mac-x64.zip)** · **[Linux](https://github.com/ceres077/pezzhub-releases/releases/download/tizen-channel/pezzhub-tv-samsung-linux.AppImage)** | Runs on your computer and installs pezzhub on the TV. [How it works](#-new-pezzhub-on-samsung-tv) |
+
+**Coming soon:** LG TV (webOS). Step-by-step instructions for every device are in [Installing](#installing).
+Once installed, pezzhub updates itself.
 
 <p align="center">
   <a href="https://github.com/ceres077/pezzhub-releases/raw/main/media/pezzhub-presentation.mp4">
@@ -15,16 +32,10 @@
 ## 📺 New: pezzhub on Samsung TV
 
 pezzhub now runs on **Samsung smart TVs with Tizen (2020 and newer)**: movies and TV shows with the TV's own player,
-manga, music and live TV, all with the remote and in sync with your other devices. Install it from your
-computer with **pezzhub for Samsung TV**, a small program that finds your TV, prepares it and installs pezzhub, no
-developer tools needed.
-
-| Your computer | Download the installer |
-|---|---|
-| Windows 10 or 11 | **[pezzhub-tv-samsung-setup.exe](https://github.com/ceres077/pezzhub-releases/releases/download/tizen-channel/pezzhub-tv-samsung-setup.exe)** |
-| Mac with Apple Silicon | **[pezzhub-tv-samsung-mac-arm64.zip](https://github.com/ceres077/pezzhub-releases/releases/download/tizen-channel/pezzhub-tv-samsung-mac-arm64.zip)** |
-| Mac with an Intel processor | **[pezzhub-tv-samsung-mac-x64.zip](https://github.com/ceres077/pezzhub-releases/releases/download/tizen-channel/pezzhub-tv-samsung-mac-x64.zip)** |
-| Linux (64-bit) | **[pezzhub-tv-samsung-linux.AppImage](https://github.com/ceres077/pezzhub-releases/releases/download/tizen-channel/pezzhub-tv-samsung-linux.AppImage)** |
+manga, music and live TV, all with the remote and in sync with your other devices. You install it from your computer
+with **pezzhub for Samsung TV**, a small program for **Windows, macOS and Linux** that finds your TV, prepares it and
+installs pezzhub. No developer tools needed. Download it from the [table above](#download) or from the
+[Samsung TV installers page](https://github.com/ceres077/pezzhub-releases/releases/tag/tizen-channel).
 
 <p align="center">
   <a href="https://github.com/ceres077/pezzhub-releases/raw/main/media/pezzhub-samsung-tv.mp4">
@@ -34,8 +45,8 @@ developer tools needed.
   <a href="https://github.com/ceres077/pezzhub-releases/raw/main/media/pezzhub-samsung-tv.mp4"><b>▶ Watch the video: pezzhub on Samsung TV and how to install it</b></a>
 </p>
 
-How it works, in short (details in [Installing](#installing)): put the TV in Developer Mode once, open the installer,
-choose your TV and click *Install pezzhub*. To update, run the installer again.
+In short: put the TV in Developer Mode once, open the installer, choose your TV and click *Install pezzhub*. To update,
+run the installer again. Full steps in [Installing](#installing).
 
 ![pezzhub home: cinehub, mangahub, soundhub and tvhub on one screen](screenshots/home.jpg)
 
@@ -69,27 +80,12 @@ Available in English, Italian, French, Spanish and German.
 | ![soundhub](screenshots/soundhub.jpg) | **soundhub** · Songs, albums, artists and playlists. Favorites, a reorderable queue, synced lyrics, radio from the song you're playing, and Spotify favorites import. |
 | ![The cinehub library](screenshots/library.jpg) | **tvhub and library** · tvhub brings live channels and a TV guide with your own Xtream subscription. The library gathers your list, history, diary and downloads, per profile. |
 
-## Supported devices
-
-| Device | Requirements | File to download |
-|---|---|---|
-| Windows | 64-bit Windows 10 or 11 | `pezzhub-setup-X.Y.Z.exe` |
-| Mac with Apple Silicon (M1, M2, M3, M4…) | macOS 11 or later | `pezzhub-mac-arm64-X.Y.Z.dmg` |
-| Mac with an Intel processor | macOS 11 or later | `pezzhub-mac-x64-X.Y.Z.dmg` |
-| Android phone and tablet | Android 8 or later, 64-bit | `pezzhub-android-X.Y.Z.apk` |
-| Android TV (alpha) | Android TV 8 or later | `pezzhub-tv-X.Y.Z.apk` |
-| Linux (CachyOS, Arch and Arch-based) | 64-bit (x86_64), `mpv` | [`pezzhub-linux.pacman`](https://github.com/ceres077/pezzhub-releases/releases/download/linux-channel/pezzhub-linux.pacman) or [`pezzhub-linux.AppImage`](https://github.com/ceres077/pezzhub-releases/releases/download/linux-channel/pezzhub-linux.AppImage) |
-| Samsung TV (Tizen) | Samsung smart TV from 2020 or newer, Developer Mode, a computer on the same network | the installer [for Windows](https://github.com/ceres077/pezzhub-releases/releases/download/tizen-channel/pezzhub-tv-samsung-setup.exe), [Mac](https://github.com/ceres077/pezzhub-releases/releases/download/tizen-channel/pezzhub-tv-samsung-mac-arm64.zip) ([Intel](https://github.com/ceres077/pezzhub-releases/releases/download/tizen-channel/pezzhub-tv-samsung-mac-x64.zip)) or [Linux](https://github.com/ceres077/pezzhub-releases/releases/download/tizen-channel/pezzhub-tv-samsung-linux.AppImage) |
-
-Every file is in the [latest release](https://github.com/ceres077/pezzhub-releases/releases/latest); the two Linux
-links above always point to the latest Linux version. Each version ships for all devices with the same number.
+## On the TV
 
 On **Android TV** everything works with the remote: rows of titles, a side bar, voice search from the remote's
 microphone and a first-run guide. The TV app is still in **alpha**, so expect some rough edges.
 
 On **Samsung TV** pezzhub plays movies with the TV's own built-in player and everything works with the remote.
-
-**Coming soon:** LG TV (webOS).
 
 ## One account, everything in sync
 
@@ -105,7 +101,7 @@ A deleted profile disappears from every device.
 - **Mac:** open the dmg and drag pezzhub to Applications. pezzhub has no paid Apple certificate, so macOS asks
   for confirmation on first launch: open *System Settings › Privacy & Security* and click *Open Anyway*.
   You only need to do this once.
-- **Android:** open the APK on your phone and, if Android asks, allow installs from that source.
+- **Android phone & tablet:** open the APK on your phone or tablet and, if Android asks, allow installs from that source.
 - **Android TV:** copy the APK to the TV (for example with a USB stick) and open it with a file manager.
 - **Linux:** install the package with `sudo pacman -U pezzhub-linux.pacman` (it brings in `mpv` if missing), or make the
   AppImage executable and run it (it needs `mpv` and `fuse2`).
@@ -124,17 +120,18 @@ A deleted profile disappears from every device.
   Privacy & Security*. On Linux make the AppImage executable and run it.
 
 Updates then arrive from the app, in *Settings › Updates*: pezzhub downloads the new version, checks its SHA-256
-fingerprint and offers to install it. Profiles and settings are kept. The Mac `.zip` files and the `android-…`
-entries on the releases page are used by automatic updates: you don't need to download them.
+fingerprint and offers to install it. Profiles and settings are kept. On the [releases page](https://github.com/ceres077/pezzhub-releases/releases), the Mac `.zip` files, the `…-updates.json` manifests and the
+`android-…`, `linux-…` and `tizen-…` entries are used by automatic updates: use the links in [Download](#download)
+instead.
 
 ## Community and feedback
 
-Join **[r/pezzhub](https://www.reddit.com/r/pezzhub)** for feedback, bug reports, feature ideas and help.
-Join even if you only lurk.
+- 💬 **[Discord](https://discord.gg/75z6vwfQkK)**: chat, help and news.
+- 👥 **[r/pezzhub](https://www.reddit.com/r/pezzhub)**: feedback, bug reports and feature ideas.
+- 🌐 **[pezzhub.netlify.app](https://pezzhub.netlify.app/)**: the website, with every download.
 
 pezzhub is a one-person project and help is very welcome: beta testers (especially for Android TV, Samsung TV and the
-upcoming LG app), translators, designers and developers. Open an
-[issue](https://github.com/ceres077/pezzhub-releases/issues) or write on r/pezzhub.
+upcoming LG app), translators, designers and developers. Open an [issue](https://github.com/ceres077/pezzhub-releases/issues), or write on Discord or r/pezzhub.
 
 ## Virus check
 
